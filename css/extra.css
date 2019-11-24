@@ -28,6 +28,13 @@
   background-color: rgb(160, 160, 160);
   background-blend-mode: overlay;
 }
+.header-home{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
 .kaart {
   height: 250px;
   background-size: cover; /* afbeelding behelst heel de header */
