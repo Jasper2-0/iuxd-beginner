@@ -1,0 +1,9 @@
+.masthead {
+    height: 25vh;
+    min-height: 400px;
+    max-height: 700px;
+    background-image: url('../img/home/unsplash-photo-1511746315387-c4a76990fdce.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }

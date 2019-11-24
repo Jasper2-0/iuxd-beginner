@@ -1,5 +1,7 @@
 <!doctype html>
-<html lang="en">
+
+<html lang="NL_nl">
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,10 +10,149 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Extra CSS-->
+    <link rel="stylesheet" href="/src/css/extra.css">
+
     <title>Home - Visual Branding</title>
   </head>
+
   <body>
-    <h1>Welkom op de overzichtspagina van Visual Branding.</h1>
+    <!-- container van volledige scherm breedte-->
+    <!-- <div class="container-fluid"> uitgezet vanwege witte balken aan de zijkanten--> 
+
+      <!-- Start eerste rij voor navigatiebar -->
+      <div class="row"> <!--  maakt een rij aan -->
+        <div class="col-md-12"> <!--  kolom van volledige breedte -->
+          
+          <!-- start navigatiebar -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light static-top navbar-dark bg-dark"> <!-- donkere navbar -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <!-- navbar open of dicht voor mobiel -->
+              <span class="navbar-toggler-icon"></span> <!-- hamburger menu icon -->
+            </button> <a class="navbar-brand" href="../">Visual Branding</a> <!-- site naam -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+              <!-- Start navigatie items -->
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                   <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/golden-circle.html">Golden circle</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/merkwijzer.html">Merkwijzer</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/kernwaarden.html">Kernwaarden</a>
+                </li>
+              </ul>
+              <!-- Eind navigatie items -->
+            </div>
+          </nav>
+          <!-- Eind navigatiebar -->
+        </div> <!-- einde kolom-->
+      </div> <!-- einde rij-->
+
+      <!-- header foto met gecentreerde tekst -->
+      <header class="masthead"> <!-- start header -->
+        <div class="container h-100"> <!-- container van 100% header hoogte-->
+          <div class="row h-100 align-items-center"> <!-- rij van 100% header hoogte, items gecentreerd-->
+            <div class="col-12 text-center"> <!-- kolom volledige breedte, text in het midden -->
+              <h1 class="font-weight-light">Visual branding</h1>
+              <p class="lead">Waarvoor gebruiken</p>
+              <p class="lead">Waarom gebruiken</p>
+            </div>
+          </div>
+        </div>
+      </header> <!-- einde header -->
+
+
+      <!-- Start derde rij voor inleiding-->
+      <div class="row"> <!--  maakt een rij aan -->
+        <div class="col-md-12"> <!--  kolom van volledige breedte -->
+
+          <div class="jumbotron">
+              <h2>
+                <span>Inleiding</span>
+              </h2>
+              <div>
+                <span>- Wanneer in ontwerpproces?</span>
+              </div>
+              <div>
+                <span>- Welke methodes?</span>
+              </div>
+              <div>
+                <span>- waarom deze methodes?</span>
+              </div>
+              
+            </div>
+
+        </div> <!-- einde kolom-->
+      </div> <!-- einde rij-->
+
+      <!-- Start vierde rij voor methode kaarten-->
+      <div class="row"> <!--  maakt een rij aan -->
+        <div class="col-md-12"> <!--  kolom van volledige breedte -->
+
+          <div class="container">
+              <div class="row">
+
+                <!-- kaart 1: Golden circle -->
+                <div class="col-md-4">
+                  <div class="card">
+                    <a href="/golden-circle.html">
+                    <h5 class="card-header">
+                      Golden circle
+                    </h5>
+                    <div class="card-body">
+                      <p class="card-text">
+                        foto
+                      </p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- kaart 2: Merkwijzer -->
+                <div class="col-md-4">
+                  <div class="card">
+                      <a href="/merkwijzer.html">
+                    <h5 class="card-header">
+                      Merkwijzer
+                    </h5>
+                    <div class="card-body">
+                      <p class="card-text">
+                        foto
+                      </p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- kaart 3: Kernwaarden -->
+                <div class="col-md-4">
+                  <div class="card">
+                      <a href="/kernwaarden.html">
+                    <h5 class="card-header">
+                      Kernwaarden
+                    </h5>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Foto
+                      </p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          
+        </div> <!-- einde kolom-->
+      </div> <!-- einde rij-->
+      
+    <!-- </div> einde container uitgezet vanwege witte balken aan de zijkanten -->
+      
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
