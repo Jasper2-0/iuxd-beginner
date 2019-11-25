@@ -21,6 +21,11 @@
   max-width: 600px;
 }
 
+/* .container-extra-padding{
+  padding-top: 50px !important;
+  padding-bottom: 15px !important;
+} */
+
 /* HOME */
 /* bepaalt de foto voor de header van de pagina home */
 .home {
