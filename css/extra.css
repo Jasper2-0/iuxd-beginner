@@ -103,3 +103,9 @@
   background-color: rgb(160, 160, 160);
   background-blend-mode: overlay;
 }
+
+footer{
+  background-color: #343a40;
+  color: #f8f9fa; 
+  padding: 0 25%;
+}
