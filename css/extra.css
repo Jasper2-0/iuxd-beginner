@@ -50,6 +50,10 @@ font-weight: 700;
   background-color: #AD343E;
 }
 
+.bg-black{
+  background-color: #1E1E24;
+}
+
 h2 {
   color: #AD343E;
   padding-bottom: .5rem;
@@ -73,6 +77,10 @@ h2 {
 
 .text-yellow {
   color: #F2AF29;
+}
+
+a.bron{
+  color: #F2AF29 !important;
 }
 
 .padding-basic {
@@ -146,6 +154,7 @@ h2 {
   color: #EBE9E9;
   text-align: center;
   font-weight: 700;
+  margin-top: -10px;
 }
 
 .card-body {
@@ -176,9 +185,8 @@ h2 {
 
 .header-home {
   font-family: 'Open Sans', sans-serif;
-  color: #FFFFFB;
   font-weight: 600;
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-align: center;
 }
 
