@@ -1,30 +1,165 @@
+/* COLOURS
+light = #FFFFFB 
+light gray = #EBE9E9
+black = #1E1E24
+primary = #AD343E
+secondary = #F2AF29 */
+
 /* ALGEMEEN */
 /* bepaalt hoe de header er uit ziet */
-.masthead {
-  height: 25vh;/* hoogte is 25% van de hoogte van het scherm */
-  min-height: 400px; /* de minimale hoogte voor als 25vh kleiner is */
-  max-height: 700px; /* de maximale hoogte voor als 25vh groter is, belangrijk voor bredere schermen */
-  background-size: cover; /* afbeelding behelst heel de header */
-  background-position: center; /* afbeelding in het midden */
-  background-repeat: no-repeat; /* afbeelding wordt niet herhaald */
-}
-.voorbeelduitwerking {
-  display: block;
-  /* zodat afbeelding gecentreerd kan worden */
-  margin-left: auto;
-  /* afstand tot linkerzijde auto */
-  margin-right: auto;
-  /* afstand tot rechterzijde auto */
-  width: 45vw;
-  height: auto;
-  min-width: 250px;
-  max-width: 600px;
+body {
+  overflow-x: hidden;
 }
 
-/* .container-extra-padding{
-  padding-top: 50px !important;
-  padding-bottom: 15px !important;
-} */
+.navbar{
+  background-color: #1e1e24;
+}
+
+.navbar-brand{
+color: #AD343E;
+font-weight: 700;
+}
+
+.navbar-brand:hover{
+color: #AD343E;
+font-weight: 700;
+}
+
+.nav-link{
+  color: #EBE9E9 !important;
+}
+
+.nav-link:hover{
+  color: #AD343E !important;
+}
+
+.active{
+  color: #AD343E !important;
+  font-weight: 700;
+}
+
+.bg-light {
+  background-color: #FFFFFB;
+}
+
+.bg-light-gray {
+  background-color: #EBE9E9;
+}
+
+.bg-red {
+  background-color: #AD343E;
+}
+
+h2 {
+  color: #AD343E;
+  padding-bottom: .5rem;
+}
+
+.text-dark {
+  color: #1E1E24;
+}
+
+.text-light {
+  color: #FFFFFB;
+}
+
+.text-light-gray {
+  color: #EBE9E9;
+}
+
+.text-red {
+  color: #AD343E;
+}
+
+.text-yellow {
+  color: #F2AF29;
+}
+
+.padding-basic {
+  /* custom padding voor de full width (fluid) containers */
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 7.5vh;
+  padding-bottom: 7.5vh;
+}
+
+.padding-col-left {
+  /* minder padding rechts */
+  padding-right: 5vw;
+}
+
+.padding-col-right {
+  /* minder padding links*/
+  padding-left: 5vw;
+}
+
+.padding-card-col {
+  /*custom padding voor de columns waar kaarten in staan */
+  padding-left: 1.25vw;
+  padding-right: 1.25vw;
+}
+
+.padding-card-col-left {
+  /*custom padding voor de columns waar kaarten in staan - linker kolom*/
+  padding-left: 0;
+}
+
+.padding-card-col-rigt {
+  /*custom padding voor de columns waar kaarten in staan - rechter kolom*/
+  padding-right: 0;
+}
+
+.masthead {
+  height: 56vh;
+  /* hoogte is 25% van de hoogte van het scherm */
+  min-height: 400px;
+  /* de minimale hoogte voor als 25vh kleiner is */
+  max-height: 700px;
+  /* de maximale hoogte voor als 25vh groter is, belangrijk voor bredere schermen */
+  background-size: cover;
+  /* afbeelding behelst heel de header */
+  background-position: center;
+  /* afbeelding in het midden */
+  background-repeat: no-repeat;
+  /* afbeelding wordt niet herhaald */
+}
+
+.voorbeeld-img-col {
+  padding: 0;
+  /* haalt de standaard padding van een container weg zodat er geen randen naast de afbeelding zijn */
+}
+
+.img-full-width {
+  /* afbeelding zo groot als de column of container waar het in geplaatst is, afbeelding wordt vergroot tot de randen de randen van de container raken */
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.how-number {
+  color: #F2AF29;
+  text-align: center;
+}
+
+.card-header {
+  background-color: #AD343E;
+  color: #EBE9E9;
+  text-align: center;
+  font-weight: 700;
+}
+
+.card-body {
+  background-color: #EBE9E9;
+  color: #1E1E24;
+}
+
+.card-text {
+  color: #1E1E24;
+}
+
+.card {
+  text-align: center !important;
+}
 
 /* HOME */
 /* bepaalt de foto voor de header van de pagina home */
@@ -33,29 +168,38 @@
   background-color: rgb(160, 160, 160);
   background-blend-mode: overlay;
 }
-.header-home{
+
+.header-title {
+  text-align: center;
+  font-weight: 700;
+}
+
+.header-home {
   font-family: 'Open Sans', sans-serif;
-  color: black;
+  color: #FFFFFB;
   font-weight: 600;
   font-size: 1.2em;
+  text-align: center;
 }
 
 .kaart {
   height: 250px;
-  background-size: cover; /* afbeelding behelst heel de header */
-  background-position: center; /* afbeelding in het midden */
-  background-repeat: no-repeat; /* afbeelding wordt niet herhaald */
+  background-size: cover;
+  /* afbeelding behelst heel de header */
+  background-position: center;
+  /* afbeelding in het midden */
+  background-repeat: no-repeat;
+  /* afbeelding wordt niet herhaald */
 }
-.card-header {
-  background-color: rgba(0, 0, 0, 50%);
-  color: rgb(255, 255, 255);
-}
+
 .goldencircle-kaart {
   background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
 }
+
 .merkwijzer-kaart {
   background-image: url('http://yoeri.xyz/iuxd/merkwijzer-starbucks.png')
 }
+
 .kernwaarden-kaart {
   background-image: url('http://yoeri.xyz/iuxd/kernwaarden.png')
 }
@@ -67,6 +211,7 @@
   background-color: rgb(140, 140, 140);
   background-blend-mode: overlay;
 }
+
 .golden-circle-hoe {
   height: 10vw;
   min-height: 150px;
@@ -75,12 +220,15 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .golden-circle-hoe-1 {
   background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
 }
+
 .golden-circle-hoe-2 {
   background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
 }
+
 .golden-circle-hoe-3 {
   background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
 }
@@ -98,13 +246,5 @@
 .kernwaarden {
   background-image: url('http://yoeri.xyz/iuxd/kernwaarden.png');
   background-color: rgb(180, 180, 180);
-  background-blend-mode: overlay;
-}
-
-/* BRONNENLIJST */
-/* header image */
-.bronnenlijst {
-  background-image: url('https://images.unsplash.com/photo-1465433045946-ba6506ce5a59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
-  background-color: rgb(160, 160, 160);
   background-blend-mode: overlay;
 }
