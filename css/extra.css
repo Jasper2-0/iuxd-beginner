@@ -19,6 +19,7 @@
   height: auto;
   min-width: 250px;
   max-width: 600px;
+  border: 3px solid black
 }
 
 /* .container-extra-padding{
@@ -76,7 +77,7 @@
   background-position: center;
 }
 .golden-circle-hoe-1 {
-  background-image: url('https://3.basecamp-static.com/4250144/people/BAhpBCLLigE=--c1303fba1e50f3bc321fbb5f4d2ad660e247e2af/avatar-130-x1?v=1');
+  background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
 }
 .golden-circle-hoe-2 {
   background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
