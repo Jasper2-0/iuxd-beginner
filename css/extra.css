@@ -1,0 +1,121 @@
+/* ALGEMEEN */
+/* bepaalt hoe de header er uit ziet */
+.masthead {
+  height: 25vh;/* hoogte is 25% van de hoogte van het scherm */
+  min-height: 400px; /* de minimale hoogte voor als 25vh kleiner is */
+  max-height: 700px; /* de maximale hoogte voor als 25vh groter is, belangrijk voor bredere schermen */
+  background-size: cover; /* afbeelding behelst heel de header */
+  background-position: center; /* afbeelding in het midden */
+  background-repeat: no-repeat; /* afbeelding wordt niet herhaald */
+}
+.voorbeelduitwerking {
+  display: block;
+  /* zodat afbeelding gecentreerd kan worden */
+  margin-left: auto;
+  /* afstand tot linkerzijde auto */
+  margin-right: auto;
+  /* afstand tot rechterzijde auto */
+  width: 45vw;
+  height: auto;
+  min-width: 250px;
+  max-width: 600px;
+  border: 3px solid black
+}
+
+/* .container-extra-padding{
+  padding-top: 50px !important;
+  padding-bottom: 15px !important;
+} */
+
+/* HOME */
+/* bepaalt de foto voor de header van de pagina home */
+.home {
+  background-image: url('https://images.unsplash.com/photo-1511746315387-c4a76990fdce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+  background-color: rgb(160, 160, 160);
+  background-blend-mode: overlay;
+}
+.header-home{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.kaart {
+  height: 250px;
+  background-size: cover; /* afbeelding behelst heel de header */
+  background-position: center; /* afbeelding in het midden */
+  background-repeat: no-repeat; /* afbeelding wordt niet herhaald */
+}
+.card-header {
+  background-color: rgba(0, 0, 0, 50%);
+  color: rgb(255, 255, 255);
+}
+.goldencircle-kaart {
+  background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
+}
+.merkwijzer-kaart {
+  background-image: url('http://yoeri.xyz/iuxd/merkwijzer-starbucks.png')
+}
+.kernwaarden-kaart {
+  background-image: url('http://yoeri.xyz/iuxd/kernwaarden.png')
+}
+
+/* GOLDEN CIRCLE */
+/* header image */
+.golden-circle {
+  background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
+  background-color: rgb(140, 140, 140);
+  background-blend-mode: overlay;
+}
+.golden-circle-hoe {
+  height: 10vw;
+  min-height: 150px;
+  max-height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.golden-circle-hoe-1 {
+  background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
+}
+.golden-circle-hoe-2 {
+  background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
+}
+.golden-circle-hoe-3 {
+  background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
+}
+
+/* MERKWIJZER */
+/* header image */
+.merkwijzer {
+  background-image: url('http://yoeri.xyz/iuxd/merkwijzer-starbucks.png');
+  background-color: rgb(160, 160, 160);
+  background-blend-mode: overlay;
+}
+
+/* KERNWAARDEN */
+/* header image */
+.kernwaarden {
+  background-image: url('http://yoeri.xyz/iuxd/kernwaarden.png');
+  background-color: rgb(180, 180, 180);
+  background-blend-mode: overlay;
+}
+
+.kernwaarden-hoe-1{
+  background-image: url(https://images.squarespace-cdn.com/content/v1/57b27c5be58c62b96df66901/1473555808819-X8EH6N99I25036VN4BBZ/ke17ZwdGBToddI8pDm48kDCUnlYkCH02BigXDeW-wyxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwGlA84QJa-di9jErMQVjL5b7VgSFK8Nmqic8fCjnFGofNUhg91xRYK42KQQIBO4eE/image-asset.jpeg?format=500w);
+}
+
+/* BRONNENLIJST */
+/* header image */
+.bronnenlijst {
+  background-image: url('https://images.unsplash.com/photo-1465433045946-ba6506ce5a59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  background-color: rgb(160, 160, 160);
+  background-blend-mode: overlay;
+}
+
+footer{
+  background-color: #343a40;
+  color: #f8f9fa; 
+  /* padding: 10% 10%; */
+}
