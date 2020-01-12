@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,800,900&display=swap');
+
+html, body {
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	font-family: 'Bungee outline', sans-serif;
+	font-weight: 700;
+	font-size: 112px;
+	line-height: 63px;
+	color: #ffffff;
+	z-index: 10;
+}
+
+h2 {
+	margin-bottom: 40px;
+	margin-top: 40px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 800;
+	font-size: 40px;
+	background-image: -webkit-gradient(linear,left top,right top,from(#a35bcd),color-stop(50%,#6759ff),to(#1b60db));
+	background-image: -webkit-linear-gradient(left,#a35bcd,#6759ff 50%,#1b60db);
+	background-image: linear-gradient(90deg,#a35bcd,#6759ff 50%,#1b60db);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h4 {
+	font-weight: 700;
+	font-size: 22px;
+	text-align: center;
+	color: #2f2f2f;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 27px;
+	color: #6a7889;
+	letter-spacing: 0.06em;
+	font-weight: 400;
+}
+
+.blockquote p {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.btn-secondary {
+	background-color: tomato;
+	border: none;
+	margin-top: 24px;
+	padding: 10px 24px;
+}
+
+.nav-link,
+.navbar-brand {
+	color: white;
+}
+
+.navbar {
+	box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.495);
+	background-color: #1b60db;
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.navbar li {
+	list-style: none;
+	font-size: 16px;
+	padding: 8px 16px;
+}
+
+.header {
+	background-image: url('images/header.jpg');
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.header:before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #1b60db;
+	opacity: .8;
+	z-index: 1;
+}
+
+section {
+ padding: 128px 0;
+ border-bottom: 1px solid #eeeeee;   
+}
+
+.feature {
+	padding: 64px 0;
+}
+
+.feature:first-child {
+	padding-top: 0;
+}
+
+.portfolio-background {
+	background-color: #ffffff;
+	color: #2f2f2f;
+}
+
+.card {
+	margin-top: 25px;
+}
+
+.overmij-background {
+	background-color: #ffffff;
+	color: #2f2f2f;
+}
+
+.accordion .card {
+	border: none;
+}
+
+.accordion .card .card-header {
+	background-color: rgb(63, 36, 211);
+}
+
+.btn-black {
+	color:#ffffff;
+	font-family: helvetica;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.blockquote {
+	padding-top: 112px;
+}
+
+.bg-orange {
+	background-color: #DB5D43;
+
+}
+
+.text-orange {
+	color: #DB5D43!important;
+}
+
+.featurette-content {
+	padding-right: 56px;
+}
+
+.featurette-content-right {
+	padding-left: 56px;
+}
+
+.contact-background {
+	background-color: #ffffff;
+	color: #2f2f2f;
+}
+
+footer {
+	background-color: #333333;
+	min-height: 150px;
+	width: 100%;
+	text-align: center;
+}
+
+footer > a ~ p {
+	color: white;
+	text-decoration: none;
+}
+
+.section-2 {
+	background: url(images/pasted\ image\ 0.png) no-repeat center;
+	background-size: cover;
+	
+}
+.section-3 {
+	background: url(images/Wireframe.png) no-repeat center;
+	background-size: cover;
+}
+.section-4 {
+	background: url(images/Prototype.png) no-repeat center;
+	background-size: cover;
+}
+
