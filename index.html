@@ -1,22 +1,179 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hello, IUXD Beginner!</title>
-  </head>
-  <body>
-    <h1>Hello, Interface & User Experience Design Student!</h1>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-</html>
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body class="ss-bg-white">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div id="top" class="s-wrap site-wrapper">
+
+        <!-- site header
+        ================================================== -->
+        <header class="s-header header">
+
+            <div class="header__top">
+                <div class="header__logo">
+                    <a class="site-logo" href="index.html">
+                        <img src="images/logo.svg" alt="Homepage">
+                    </a>
+                </div>
+
+                <div class="header__search">
+    
+                    <form role="search" method="get" class="header__search-form" action="#">
+                        <label>
+                            <span class="hide-content">Search for:</span>
+                            <input type="search" class="header__search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="off">
+                        </label>
+                        <input type="submit" class="header__search-submit" value="Search">
+                    </form>
+        
+                    <a href="#0" title="Close Search" class="header__search-close">Close</a>
+        
+                </div>  <!-- end header__search -->
+
+                <!-- toggles -->
+                <a href="#0" class="header__search-trigger"></a>
+                <a href="#0" class="header__menu-toggle"><span>Menu</span></a>
+
+            </div>
+
+            <nav class="header__nav-wrap">
+
+                <ul class="header__nav">
+                    <li class="current"><a href="index.html" title="">Home</a></li>
+                    <li class="has-children">
+                            <a href="#0" title="">Explore</a>
+                            <ul class="sub-menu">
+                            <li><a href="single-gesture-design.html">Gesture Design?</a></li>
+                            <li><a href="single-het-ontstaan.html">Het ontstaan</a></li>
+                            <li><a href="single-ontwerpproces.html">Ontwerpproces</a></li>
+                            <li><a href="single-tools.html">Toepassing</a></li>
+                            <li><a href="single-praktisch.html">Praktisch</a></li>
+                            </ul>
+                    </li>
+                </ul> <!-- end header__nav -->
+
+                </ul>
+
+            </nav> <!-- end header__nav-wrap -->
+
+        </header> <!-- end s-header -->
+
+
+        <!-- site content
+        ================================================== -->
+        <div class="s-content content">
+            <main class="row content__page">
+                
+                <section class="column large-full entry format-standard">
+
+
+                    <div class="video-container">
+                        <video src="videos/home_intro.mp4" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen autoplay></video> 
+                    </div>
+                    <br>
+                      
+                    <div class="content__page-header">
+                        <h1 class="display-1">
+                        Welkom bij Gesture Design.
+                        </h1>
+                    </div> <!-- end content__page-header -->
+
+                    <p class="lead drop-cap">
+                            Wij wilde ons deze periode graag verdiepen in Gestural Interfaces. Wij hadden er als ontwerpers in de praktijk nog niet zoveel mee te maken gehad in tegenstelling tot andere onderwerpen. Daarom leek het ons extra interessant om meer te weten te komen over Gestural Interfaces. Ze zijn er al een tijdje maar door de ontwikkeling in camera’s, AI en Machine Learning zullen we Gestural Interfaces steeds vaker terug zien!
+                    </p>
+
+                    <p>
+                            Op deze pagina kan je alles over Gesture Design vinden en krijg je antwoord op de vragen; hoe pas ik Gesture Design toe in mijn ontwerpproces, wat zijn de kenmerken van een goed ontworpen Gestural Interface en waarom zou je het willen toepassen op jou ontwerpvraag. We hopen dat je uiteindelijk door middel van deze pagina zelf ook een goed Gestural Interface kan ontwerpen
+                    </p>
+
+                    <div><img src="images/home_background.jpg" 
+                        sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+                    </div>
+                    <div class="row block-large-1-2 block-tab-full">
+                        <div class="column">
+                            <h4>Wie zijn wij?</h4>
+                            <p>Wij zijn Sherwin en Cas, 4e jaars Communicatie & Multimedia Design studenten. We volgen de minor Interface & User Experience Design.</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>Ons doel</h4>
+                            <p>Door middel van deze pagina hopen we je iets te bij te brengen over Gestural Interfaces en waarom het handig is om dit als ontwerper ook goed te kunnen toepassen!</p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </main>
+
+        </div> <!-- end s-content -->
+
+
+        <!-- footer
+        ================================================== -->
+        <footer class="s-footer footer">
+            <div class="row">
+                <div class="column large-full footer__content">
+                    <div class="footer__copyright">
+                        <span>© Copyright Typerite 2019</span> 
+                        <span>Design by Cas Breedveld & Sherwin Ghogli</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"></a>
+            </div>
+        </footer>
+
+    </div> <!-- end s-wrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
