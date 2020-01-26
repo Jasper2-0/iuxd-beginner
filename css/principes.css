@@ -1,0 +1,21 @@
+.principes-header {
+    margin-bottom: -150px !important;
+}
+
+#principlesSection {
+    padding-top: 150px !important;
+}
+
+.principes-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 30px;
+}
+
+.principes-reference {
+    font-weight: lighter;
+    font-size: 0.8rem;
+    padding-left: 3%;
+}

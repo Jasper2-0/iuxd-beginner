@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet');
+@import "css/header.css";
+@import "css/image.css";
+@import "css/tools.css";
+@import "css/titles.css";
+@import "css/easing.css";
+@import "css/inspiration.css";
+@import "css/to-work.css";
+@import "css/principes.css";
+
+.h5 {
+    margin-bottom: 1.5rem !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid {
+    padding: 0 !important;
+    background-color: #f7f7f7;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.text-color {
+    color: #4A4A4A;
+    font-family: 'Poppins', sans-serif;
+}
+
+.padding {
+    padding: 0 15%;
+}
+
+.nav {
+    margin-bottom: 90px;
+    padding-top: 40px;
+}
+
+.icons {
+    padding: 30px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.motion-design-text {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+.quote {
+    text-align: center;
+    color: #ffffff;
+    padding: 0;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.size {
+    height: auto;
+    max-width: 100%;
+}
+
+.center-outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.center-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.center-inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.carousel-inner {
+    align-content: center;
+    background-color: #4A4A4A;
+}
+
+.background {
+    padding: 0 0 75px 0 !important;
+}
+
+.text-centered {
+    text-align: center;
+}

@@ -1,0 +1,135 @@
+.header-text-container {
+    max-width: unset !important;
+    position: absolute;
+    top: 0;
+}
+
+.header-text-row {
+    height: calc(100vw/1.78);
+}
+
+.header-text-center-outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.header-text-center-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-text-center-inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.header-article {
+    background-color: #ECECEC;
+    border-radius: 50px;
+    padding: 15px calc(15px*2.33);
+    text-align: center;
+    color: #4A4A4A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    display: inline;
+}
+
+.header-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #FB9467;
+    font-size: 4.5rem;
+    line-height: normal;
+    padding-bottom: 40px;
+}
+
+.header-names {
+    text-align: center;
+}
+
+.header-names-by {
+    color: #A4A4A4;
+    padding-right: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 1250px) {
+    .header-title {
+        font-size: 3.5rem;
+    }
+
+    .header-names {
+        font-size: 0.9rem;
+    }
+
+    .header-article {
+        padding: 13px calc(13px*2.33);
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .header-title {
+        font-size: 3rem;
+        padding-bottom: 20px;
+    }
+
+    .header-names {
+        font-size: 0.7rem;
+    }
+
+    .header-article {
+        padding: 10px calc(10px*2.33);
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .header-title {
+        font-size: 2rem;
+    }
+
+    .header-names {
+        font-size: 0.6rem;
+    }
+
+    .header-article {
+        font-size: 0.7rem;
+        font-weight: 600;
+        padding: 6px calc(6px*2.33);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header-title {
+        font-size: 1.5rem;
+    }
+
+    .header-names {
+        font-size: 0.5rem;
+    }
+
+    .header-article {
+        font-size: 0.6rem;
+        font-weight: 600;
+        padding: 5px calc(5px*2.33);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .header-title {
+        font-size: 1rem;
+    }
+
+    .header-names {
+        font-size: 0.4rem;
+    }
+
+    .header-names-by {
+        padding-right: 1px;
+    }
+}
