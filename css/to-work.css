@@ -1,0 +1,23 @@
+.to-work-download-buttons {
+    text-align: center;
+    padding-left: 215px !important;
+    padding: 4rem;
+    display: inline;
+}
+
+.to-work-download-buttons-pdf {
+    border-radius: 50px !important;
+    margin: 0 2rem;
+    background-color: #FB9467 !important;
+    border-color: #FB9467 !important;
+    padding: 8px 25px !important;
+    margin-left: 0px;
+}
+
+.to-work-download-buttons-invision {
+    border-radius: 50px !important;
+    margin: 0 2rem;
+    background-color: #FB9467 !important;
+    border-color: #FB9467 !important;
+    padding: 8px 25px !important; 
+}
